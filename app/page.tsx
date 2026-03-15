@@ -3,6 +3,8 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { Analytics } from "@vercel/analytics/next"
+
 
 export default function AdelionLabsWebsite() {
   const [success, setSuccess] = useState(false);
