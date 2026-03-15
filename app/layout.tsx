@@ -6,6 +6,9 @@ export const metadata = {
   title: "Adelion Labs | Cloud Infrastructure & AI Integration",
   description:
     "Adelion Labs helps organizations modernize systems, improve digital experience, and integrate AI into business workflows."
+  icons: {
+    icon: "/favicon.ico"
+  }
 };
 
 const geistSans = Geist({
