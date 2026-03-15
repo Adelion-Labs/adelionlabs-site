@@ -8,7 +8,23 @@ export const metadata = {
     "Adelion Labs helps organizations modernize systems, improve digital experience, and integrate AI into business workflows.",
   icons: {
     icon: "/favicon.ico"
+  },
+  openGraph: {
+    title: "Adelion Labs",
+    description:
+      "Cloud infrastructure, AI integration, and modern digital systems.",
+    url: "https://adelionlabs.com",
+    siteName: "Adelion Labs",
+    images: [
+      {
+        url: "/og_image.png",
+        width: 1200,
+        height: 630
+      }
+    ],
+    type: "website"
   }
+
 };
 
 const geistSans = Geist({
