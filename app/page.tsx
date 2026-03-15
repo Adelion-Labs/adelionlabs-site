@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 import { useState } from "react";
 import { Analytics } from "@vercel/analytics/next"
 
-
+<Analytics />
 export default function AdelionLabsWebsite() {
   const [success, setSuccess] = useState(false);
 
