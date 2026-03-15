@@ -1,6 +1,11 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+export const metadata = {
+  title: "Adelion Labs | Cloud Infrastructure & AI Integration",
+  description:
+    "Adelion Labs helps organizations modernize systems, improve digital experience, and integrate AI into business workflows."
+};
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
