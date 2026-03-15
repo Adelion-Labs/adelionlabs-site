@@ -12,7 +12,7 @@ export async function POST(req: Request) {
       from: "Adelion Contact <onboarding@resend.dev>",
       to: "phil@crcbio.com",
       subject: `New Adelion Labs Inquiry from ${name}`,
-      reply_to: email,
+      replyTo: email,
       html: `
         <h2>New Contact Form Submission</h2>
         <p><strong>Name:</strong> ${name}</p>
